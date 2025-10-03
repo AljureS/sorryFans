@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fan Days 2025",
-  description: "Semana exclusiva para premiar a nuestros fans - Eventos de Guns N' Roses, Imagine Dragons, Shakira y más",
+  title: "No queremos dejarlo asi",
+  description: "No podemos borrar lo ocurrido, pero sí abir la puerta a seguir construyendo",
 };
 
 export default function RootLayout({
