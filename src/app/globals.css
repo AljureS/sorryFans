@@ -250,6 +250,7 @@ body {
 
 .text-block-p1 {
   font-size: 1.1rem;
+  font-weight: bolder;
   line-height: 1.6;
   color: #252523;
   margin-bottom: 1.5rem;
@@ -257,8 +258,8 @@ body {
 }
 
 .text-block-p2 {
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.1rem;
+  /* font-weight: bold; */
   line-height: 1.6;
   color: #252523;
   margin-bottom: 2rem;
