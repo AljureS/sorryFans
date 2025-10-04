@@ -17,15 +17,15 @@ export default function TermsAndConditions() {
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <path d="M19 12H5M12 19l-7-7 7-7"/>
+              <path d="M19 12H5M12 19l-7-7 7-7" />
             </svg>
-            
+
           </Link>
         </section>
 
         <section id='tc-container'>
           <div className="container">
-            
+
             <p>
               <strong>
                 TÉRMINOS Y CONDICIONES
@@ -54,44 +54,38 @@ export default function TermsAndConditions() {
             <ul>
               <li>
                 <strong>
-                  Guns N’ Roses Bogotá 2025
+                  Guns N' Roses Bogotá 2025
                 </strong> – 7 de octubre de 2025 – Estadio Vive Claro
               </li>
               <li>
                 <strong>
-                  Guns N’ Roses Medellín 2025
-                </strong>
-                – 11 de octubre de 2025 – Estadio Atanasio Girardot
+                  Guns N' Roses Medellín 2025
+                </strong> – 11 de octubre de 2025 – Estadio Atanasio Girardot
               </li>
               <li>
                 <strong>
                   Imagine Dragons Bogotá 2025
-                </strong>
-                – 17 de octubre de 2025 – Estadio Vive Claro
+                </strong> – 17 de octubre de 2025 – Estadio Vive Claro
               </li>
               <li>
                 <strong>
                   Linkin Park Bogotá 2025
-                </strong>
-                – 25 de octubre de 2025 – Estadio Vive Claro
+                </strong> – 25 de octubre de 2025 – Estadio Vive Claro
               </li>
               <li>
                 <strong>
                   Shakira Cali 2025
-                </strong>
-                – 25 de octubre de 2025 – Estadio Pascual Guerrero
+                </strong> – 25 de octubre de 2025 – Estadio Pascual Guerrero
               </li>
               <li>
                 <strong>
-                  Páramo Celebra 2025 –
-                </strong>
-                31 de octubre de 2025 – Chamorro City Hall
+                  Páramo Celebra 2025
+                </strong> – 31 de octubre de 2025 – Chamorro City Hall
               </li>
               <li>
                 <strong>
                   Shakira Bogotá 2025
-                </strong>
-                – 1 de noviembre de 2025 – Estadio Vive Claro
+                </strong> – 1 de noviembre de 2025 – Estadio Vive Claro
               </li>
             </ul>
             <ol>
@@ -112,18 +106,10 @@ export default function TermsAndConditions() {
                 El plazo máximo para redimir será hasta cinco (5) días calendario antes de la realización del último evento listado en el año 2025 (Shakira Bogotá). Una vez vencido este plazo, se entenderá que el comprador no deseaba acceder al evento.
               </li>
               <li>
-                Para cada evento específico, la redención deberá efectuarse
-                <strong>
-                  a más tardar veinticuatro (24) horas antes de la fecha del evento correspondiente
-                </strong>
-                .
+                Para cada evento específico, la redención deberá efectuarse <strong>a más tardar veinticuatro (24) horas antes de la fecha del evento correspondiente</strong>.
               </li>
               <li>
-                Este beneficio
-                <strong>
-                  no aplica para conciertos distintos a los aquí relacionados
-                </strong>
-                ni podrá ser transferido, acumulado o redimido en dinero en efectivo.
+                Este beneficio <strong>no aplica para conciertos distintos a los aquí relacionados</strong> ni podrá ser transferido, acumulado o redimido en dinero en efectivo.
               </li>
               <li>
                 Únicamente se tramitarán solicitudes de redención que cumplan con el procedimiento anterior dentro de los plazos establecidos.
@@ -136,43 +122,19 @@ export default function TermsAndConditions() {
             </h3>
             <ul>
               <li>
-                La asignación de localidades será
-                <strong>
-                  aleatoria
-                </strong>
-                y estará
-                <strong>
-                  sujeta a disponibilidad de aforo
-                </strong>
-                en cada evento.
+                La asignación de localidades será <strong>aleatoria</strong> y estará <strong>sujeta a disponibilidad de aforo</strong> en cada evento.
               </li>
               <li>
-                Cada comprador recibirá
-                <strong>
-                  una (1) boleta por cada boleta adquirida
-                </strong>
-                para el concierto de Kendrick Lamar, aplicable únicamente a los eventos listados en estos términos y condiciones.
+                Cada comprador recibirá <strong>una (1) boleta por cada boleta adquirida</strong> para el concierto de Kendrick Lamar, aplicable únicamente a los eventos listados en estos términos y condiciones.
               </li>
               <li>
-                El beneficio es
-                <strong>
-                  personal, intransferible, no acumulable y no canjeable por dinero en efectivo
-                </strong>
-                ni por ningún otro bien o servicio.
+                El beneficio es: <strong>personal, intransferible, no acumulable y no canjeable por dinero en efectivo</strong> ni por ningún otro bien o servicio.
               </li>
               <li>
-                Una vez el beneficiario haya redimido sus boletas para un evento específico,
-                <strong>
-                  se entenderá agotado su derecho de redención
-                </strong>
-                . No será posible redimir nuevamente en otro evento, aun cuando el beneficiario no asista al evento seleccionado.
+                Una vez el beneficiario haya redimido sus boletas para un evento específico, <strong>se entenderá agotado su derecho de redención</strong>. No será posible redimir nuevamente en otro evento, aun cuando el beneficiario no asista al evento seleccionado.
               </li>
               <li>
-                En caso de no poder asistir al evento para el cual ya fueron redimidas las boletas,
-                <strong>
-                  no habrá lugar a devolución, cambio de localidad ni posibilidad de redimir nuevamente en otro evento
-                </strong>
-                .
+                En caso de no poder asistir al evento para el cual ya fueron redimidas las boletas, <strong>no habrá lugar a devolución, cambio de localidad ni posibilidad de redimir nuevamente en otro evento</strong>.
               </li>
             </ul>
             <ol>
@@ -184,11 +146,7 @@ export default function TermsAndConditions() {
             </ol>
             <ul>
               <li>
-                Cada evento mantiene sus propias
-                <strong>
-                  políticas de edad mínima
-                </strong>
-                . El asistente debe verificarlas previamente.
+                Cada evento mantiene sus propias <strong>políticas de edad mínima</strong>. El asistente debe verificarlas previamente.
               </li>
               <li>
                 Si el comprador o asistente no cumple con la edad mínima o no cuenta con acompañamiento requerido por un adulto responsable, no se permitirá el ingreso.
@@ -239,20 +197,10 @@ export default function TermsAndConditions() {
             </ol>
             <ul>
               <li>
-                Se prohíbe la
-                <strong>
-                  reventa
-                </strong>
-                de boletas de cortesía.
+                Se prohíbe la <strong>reventa</strong> de boletas de cortesía.
               </li>
               <li>
-                La boletería no podrá ser utilizada para
-                <strong>
-                  promociones, concursos o sorteos
-                </strong>
-                sin autorización previa y escrita del organizador.
-                <strong>
-                </strong>
+                La boletería no podrá ser utilizada para <strong>promociones, concursos o sorteos</strong> sin autorización previa y escrita del organizador.
               </li>
             </ul>
             <ol>
@@ -264,11 +212,7 @@ export default function TermsAndConditions() {
             </ol>
             <ul>
               <li>
-                El organizador se reserva el
-                <strong>
-                  derecho de admisión
-                </strong>
-                .
+                El organizador se reserva el <strong>derecho de admisión</strong>.
               </li>
               <li>
                 Los asistentes deberán acatar todas las medidas de seguridad, convivencia y políticas del organizador y de las autoridades.
@@ -286,16 +230,10 @@ export default function TermsAndConditions() {
             </ol>
             <ul>
               <li>
-                <strong>
-                  Embarazo:
-                </strong>
-                no está permitido el ingreso de mujeres en visible estado de embarazo.
+                <strong>Embarazo:</strong> no está permitido el ingreso de mujeres en visible estado de embarazo.
               </li>
               <li>
-                <strong>
-                  Movilidad reducida:
-                </strong>
-                los inmuebles contarán con áreas habilitadas para personas con movilidad reducida y un (1) acompañante, sujeto a que el acompañante cuente con boleta individual.
+                <strong>Movilidad reducida:</strong> los inmuebles contarán con áreas habilitadas para personas con movilidad reducida y un (1) acompañante, sujeto a que el acompañante cuente con boleta individual.
               </li>
               <li>
                 La compra y/o uso indebido de boletas para personas con discapacidad faculta al organizador o al inmueble a ejercer las acciones legales correspondientes.
@@ -310,11 +248,7 @@ export default function TermsAndConditions() {
             </ol>
             <ul>
               <li>
-                Al asistir al evento, el asistente y sus acompañantes aceptan ser
-                <strong>
-                  fotografiados o filmados
-                </strong>
-                por el organizador o sus aliados comerciales, autorizando el uso de su imagen para fines promocionales, publicitarios y comerciales, sin limitación de medios ni de territorio, sus datos serán tratados bajo la política de Promotora Colombia S.A.S.
+                Al asistir al evento, el asistente y sus acompañantes aceptan ser <strong>fotografiados o filmados</strong> por el organizador o sus aliados comerciales, autorizando el uso de su imagen para fines promocionales, publicitarios y comerciales, sin limitación de medios ni de territorio, sus datos serán tratados bajo la política de Promotora Colombia S.A.S.
               </li>
             </ul>
 
