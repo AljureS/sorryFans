@@ -25,7 +25,6 @@ export default function TermsAndConditions() {
 
         <section id='tc-container'>
           <div className="container">
-
             <p>
               <strong>
                 TÉRMINOS Y CONDICIONES
@@ -55,37 +54,44 @@ export default function TermsAndConditions() {
               <li>
                 <strong>
                   Guns N' Roses Bogotá 2025
-                </strong> – 7 de octubre de 2025 – Estadio Vive Claro
+                </strong>
+                – 7 de octubre de 2025 – Estadio Vive Claro
               </li>
               <li>
                 <strong>
                   Guns N' Roses Medellín 2025
-                </strong> – 11 de octubre de 2025 – Estadio Atanasio Girardot
+                </strong>
+                – 11 de octubre de 2025 – Estadio Atanasio Girardot
               </li>
               <li>
                 <strong>
                   Imagine Dragons Bogotá 2025
-                </strong> – 17 de octubre de 2025 – Estadio Vive Claro
+                </strong>
+                – 17 de octubre de 2025 – Estadio Vive Claro
               </li>
               <li>
                 <strong>
                   Linkin Park Bogotá 2025
-                </strong> – 25 de octubre de 2025 – Estadio Vive Claro
+                </strong>
+                – 25 de octubre de 2025 – Estadio Vive Claro
               </li>
               <li>
                 <strong>
                   Shakira Cali 2025
-                </strong> – 25 de octubre de 2025 – Estadio Pascual Guerrero
+                </strong>
+                – 25 de octubre de 2025 – Estadio Pascual Guerrero
               </li>
               <li>
                 <strong>
                   Páramo Celebra 2025
-                </strong> – 31 de octubre de 2025 – Chamorro City Hall
+                </strong>
+                – 31 de octubre de 2025 – Chamorro City Hall
               </li>
               <li>
                 <strong>
                   Shakira Bogotá 2025
-                </strong> – 1 de noviembre de 2025 – Estadio Vive Claro
+                </strong>
+                – 1 de noviembre de 2025 – Estadio Vive Claro
               </li>
             </ul>
             <ol>
@@ -93,15 +99,35 @@ export default function TermsAndConditions() {
                 <strong>
                   Vigencia y procedimiento de redención
                 </strong>
+                <ol>
+                  <li>
+                    Revisa la lista de eventos disponibles y elige el que más te emocione.
+                  </li>
+                  <li>
+                    Haz clic en "Redimir entrada" y te llevaremos directo a Ticketmaster.
+                  </li>
+                  <li>
+                    Allí selecciona la cantidad de boletas y la localidad que prefieras (recuerda que las cantidades habilitadas corresponden a lo que compraste en Kendrick).
+                  </li>
+                  <li>
+                    Continúa con el proceso de compra como siempre: carrito, datos, ¡todo normal!
+                  </li>
+                  <li>
+                    En el resumen de tu compra aparecerá una pregunta en azul: ¿Tienes un código de descuento? Dale clic.
+                  </li>
+                  <li>
+                    Ingresa el código, que corresponde a la cédula del comprador inicial de Kendrick Lamar registrado en Ticketmaster.
+                  </li>
+                  <li>
+                    Revisa tus datos, confirma y listo.
+                  </li>
+                  <li>
+                    Te llegará tu boleta por medio de Quentro.
+                  </li>
+                </ol>
               </li>
             </ol>
             <ul>
-              <li>
-                Los compradores de boletería de Kendrick Lamar recibirán un código de boletería personal e intransferible, que podrá ser redimido en ticketmaster.co en la página del evento. EL código será recibido al correo asociado a la cuenta para la adquisición de boletería.
-              </li>
-              <li>
-                La redención de las boletas de cortesía será válida a partir de la fecha de anuncio de la presente medida.
-              </li>
               <li>
                 El plazo máximo para redimir será hasta cinco (5) días calendario antes de la realización del último evento listado en el año 2025 (Shakira Bogotá). Una vez vencido este plazo, se entenderá que el comprador no deseaba acceder al evento.
               </li>
@@ -128,7 +154,7 @@ export default function TermsAndConditions() {
                 Cada comprador recibirá <strong>una (1) boleta por cada boleta adquirida</strong> para el concierto de Kendrick Lamar, aplicable únicamente a los eventos listados en estos términos y condiciones.
               </li>
               <li>
-                El beneficio es: <strong>personal, intransferible, no acumulable y no canjeable por dinero en efectivo</strong> ni por ningún otro bien o servicio.
+                El beneficio es <strong>personal, intransferible, no acumulable y no canjeable por dinero en efectivo</strong> ni por ningún otro bien o servicio.
               </li>
               <li>
                 Una vez el beneficiario haya redimido sus boletas para un evento específico, <strong>se entenderá agotado su derecho de redención</strong>. No será posible redimir nuevamente en otro evento, aun cuando el beneficiario no asista al evento seleccionado.
