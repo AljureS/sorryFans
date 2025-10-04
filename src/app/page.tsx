@@ -90,8 +90,9 @@ export default function Home() {
           "3. Allí selecciona la cantidad de boletas y la localidad que prefieras (recuerda que las cantidades habilitadas corresponden a lo que compraste en Kendrick).",
           "4. Continúa con el proceso de compra como siempre: carrito, datos, ¡todo normal!",
           "5. En el resumen de tu compra aparecerá una pregunta en azul: ¿Tienes un código de descuento? Dale clic.",
-          "6. Ingresa tu número de cédula en el campo correspondiente y aplica el código.",
-          "7. Revisa tus datos, confirma y listo. ¡Nos vemos frente a la tarima!"
+          "6. Ingresa el código, que corresponde a la cédula del comprador inicial de Kendrick Lamar registrado en Ticketmaster.",
+          "7. Revisa tus datos, confirma y listo.",
+          "8. Te llegará tu boleta por medio de Quentro"
         ]}
       />
 
