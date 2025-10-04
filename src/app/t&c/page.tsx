@@ -55,8 +55,7 @@ export default function TermsAndConditions() {
               <li>
                 <strong>
                   Guns N’ Roses Bogotá 2025
-                </strong>
-                – 7 de octubre de 2025 – Estadio Vive Claro
+                </strong> – 7 de octubre de 2025 – Estadio Vive Claro
               </li>
               <li>
                 <strong>

@@ -85,6 +85,7 @@ body {
 }
 
 .btn-container {
+  background-color: #fffff0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -314,18 +315,23 @@ body {
     font-size: 0.95rem;
   }
 }
- 
+
 /* t&C styles */
-#tc-container{
+#tc-container {
   width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20%;
+  text-align: justify;
 }
 
 .container {
+  text-align: justify;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  align-items: center;
   width: 100%;
   padding: 50px;
   margin: 0;
@@ -336,27 +342,27 @@ body {
 
 .container h1 {
   font-size: 1.8em;
-  margin: 15px 0 12px 0;
+  margin: 12px 0 12px 0;
   color: #1a1a1a;
   font-weight: 600;
 }
 
 .container h2 {
   font-size: 1.5em;
-  margin: 12px 0 8px 0;
+  margin: 12px 0 12px 0;
   color: #2a2a2a;
   font-weight: 500;
 }
 
 .container h3 {
   font-size: 1.2em;
-  margin: 10px 0 6px 0;
+  margin: 10px 0 10px 0;
   color: #3a3a3a;
   font-weight: 500;
 }
 
 .container p {
-  margin: 0 0 10px 0;
+  margin: 0 0 0 0;
   text-align: left;
   font-size: 1em;
 }
@@ -371,24 +377,25 @@ body {
   color: inherit;
 }
 
-.container ul, .container ol {
-  margin: 8px 0 10px 0;
-  padding-left: 20px;
+.container ul,
+.container ol {
+  margin: 10px 0 10px 0;
 }
 
 .container li {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   font-size: 1em;
 }
 
 .container table {
   width: 100%;
   border-collapse: collapse;
-  margin: 10px 0;
+  margin: 1px 0;
   font-size: 0.95em;
 }
 
-.container th, .container td {
+.container th,
+.container td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
@@ -406,8 +413,8 @@ body {
 }
 
 .container blockquote {
-  margin: 10px 0;
-  padding: 8px 15px;
+  /* margin: 10px 0; */
+  padding: 15px 15px;
   border-left: 3px solid #ccc;
   background-color: #f9f9f9;
   font-style: italic;
@@ -437,7 +444,7 @@ body {
   font-weight: 600;
   font-size: 1rem;
   transition: all 0.3s ease;
-  /* margin-bottom: 2rem; */
+  margin-top: 2rem;
 }
 
 .back-button:hover {
@@ -454,8 +461,16 @@ body {
     font-size: 0.9rem;
     padding: 0.6rem 1.2rem;
   }
+  #tc-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5%;
+    text-align: justify;
+  }
 }
-#return-btn{
+#return-btn {
   width: 100vw;
   display: flex;
   align-items: center;
