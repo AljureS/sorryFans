@@ -6,6 +6,7 @@ interface Card {
   line2: string;
   imgUrl: string;
   buttonText: string;
+  url: string;
 } 
 
 interface EventGridProps {
@@ -22,8 +23,9 @@ export default function EventGrid({ cards }: EventGridProps) {
             title={card.title}
             line1={card.line1}
             line2={card.line2}
-            imgUrl={card.imgUrl}
+            imgUrl={card.imgUrl} 
             buttonText={card.buttonText}
+            url={card.url}
           />
         ))}
       </div>

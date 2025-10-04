@@ -6,9 +6,10 @@ interface EventCardProps {
   line2: string;
   imgUrl: string;
   buttonText: string;
+  url: string;
 }
 
-export default function EventCard({ title, line1, line2, imgUrl, buttonText }: EventCardProps) {
+export default function EventCard({ title, line1, line2, imgUrl, buttonText, url }: EventCardProps) {
   return (
     <div className="grid_element">
       <div className="image_container">
@@ -26,7 +27,9 @@ export default function EventCard({ title, line1, line2, imgUrl, buttonText }: E
           <strong>{line1}</strong>
           <span>{line2}</span>
         </div>
-        <span className="grid_link">{buttonText}</span>
+        <span className="grid_link" >
+          <a href={url} target="_blank" rel="noopener noreferrer">{buttonText}</a>
+        </span>
       </div>
     </div>
   );

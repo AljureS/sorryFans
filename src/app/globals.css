@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 * {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,8 +22,8 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -30,11 +31,11 @@ body {
 
 /* Custom CSS from JSON */
 .event_blocks {
-  background-color: #FFFFF0;
+  background-color: #fffff0;
 }
 
 #event_menu {
-  background-color: #D45E4B;
+  background-color: #d45e4b;
 }
 
 .event_menu .event_nav ul {
@@ -48,7 +49,7 @@ body {
 }
 
 .event_menu .event_nav ul li a {
-  color: #FFFFF0;
+  color: #fffff0;
   text-decoration: none;
   font-weight: 600;
   padding: 0.5rem 1rem;
@@ -62,7 +63,7 @@ body {
 }
 
 .event_menu .container_menu {
-  background-color: #D45E4B;
+  background-color: #d45e4b;
 }
 
 #component-dde2b7e1-573d-4cec-8b63-3c9175a24da0 {
@@ -94,9 +95,7 @@ body {
   text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: bold;
-  transition:
-    background-color 0.6s ease,
-    color 0.3s ease,
+  transition: background-color 0.6s ease, color 0.3s ease,
     border-color 0.3s ease;
   padding: 0.8rem 1rem;
   border: 2px solid transparent;
@@ -105,29 +104,29 @@ body {
 }
 
 .btn:hover {
-  color: #D45E4B;
-  border: 2px solid #D45E4B !important;
-  background-color: #FFFFF0;
+  color: #d45e4b;
+  border: 2px solid #d45e4b !important;
+  background-color: #fffff0;
 }
 
 .btn-sale1 {
-  background-color: #D45E4B;
-  color: #FFFFF0;
+  background-color: #d45e4b;
+  color: #fffff0;
 }
 
 .btn-sale2 {
-  background-color: #FFFFF0;
-  color: #D45E4B;
+  background-color: #fffff0;
+  color: #d45e4b;
 }
 
 .btn-sale3 {
-  background-color: #D45E4B;
-  color: #FFFFF0;
+  background-color: #d45e4b;
+  color: #fffff0;
 }
 
 /* Event Grid Styles */
 .event_grid {
-  background-color: #FFFFF0;
+  background-color: #fffff0;
   padding: 3rem 0;
 }
 
@@ -180,7 +179,7 @@ body {
 
 .grid_element:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 .grid_element .image_container {
@@ -201,15 +200,14 @@ body {
 
 .grid_element .information .details {
   line-height: 1.4em;
-  color: #FFFFF0;
+  color: #fffff0;
   margin-bottom: 1rem;
 }
 
 .grid_element .information .details strong {
   font-weight: 700;
   display: block;
-  color:  #252523
-;
+  color: #252523;
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
@@ -222,8 +220,8 @@ body {
 }
 
 .grid_element .information span.grid_link {
-  background: #D45E4B;
-  color: #FFFFF0;
+  background: #d45e4b;
+  color: #fffff0;
   text-transform: uppercase;
   font-weight: bolder;
   padding: 0.75rem 1.5rem;
@@ -236,4 +234,82 @@ body {
 .grid_element .information span.grid_link:hover {
   color: #000;
   background: #e66e5c;
+}
+
+/* TextBlock Styles */
+.text-block-container {
+  background-color: #fffff0;
+  padding: 1.5rem 14%;
+}
+
+.text-block-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.text-block-p1 {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #252523;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.text-block-p2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #252523;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.steps-container {
+  background-color: #f3e7e7;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.steps-list {
+  list-style-position: inside;
+  counter-reset: step-counter;
+  padding: 0;
+  margin: 0;
+}
+
+.step-item {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #252523;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.step-item:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .text-block-container {
+    /* background-color: #fffff0; */
+    padding: 3rem 2%;
+  }
+  .text-block-content {
+    padding: 0 1rem;
+  }
+
+  .text-block-p1,
+  .text-block-p2 {
+    font-size: 1rem;
+  }
+
+  .steps-container {
+    padding: 1.5rem;
+  }
+
+  .step-item {
+    font-size: 0.95rem;
+  }
 }

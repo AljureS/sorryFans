@@ -4,7 +4,7 @@ export default function EventMenu() {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
 
@@ -15,7 +15,21 @@ export default function EventMenu() {
           <ul>
             <li>
               <a
-                onClick={() => scrollToSection('component-dde2b7e1-573d-4cec-8b63-3c9175a24da0')}
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection('component-text-block');
+                }}
+                className="event_menu_link cursor-pointer"
+              >
+                ¿Cómo funciona?
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection('component-dde2b7e1-573d-4cec-8b63-3c9175a24da0');
+                }}
                 className="event_menu_link cursor-pointer"
               >
                 Eventos
@@ -23,7 +37,10 @@ export default function EventMenu() {
             </li>
             <li>
               <a
-                onClick={() => scrollToSection('component-17b12048-5e79-4aeb-bd00-088ac4aaef7c')}
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection('component-17b12048-5e79-4aeb-bd00-088ac4aaef7c');
+                }}
                 className="event_menu_link cursor-pointer"
               >
                 Términos y Condiciones
