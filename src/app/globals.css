@@ -314,8 +314,11 @@ body {
     font-size: 0.95rem;
   }
 }
-
+ 
 /* t&C styles */
+#tc-container{
+  width: 100vw;
+}
 
 .container {
   display: flex;
@@ -323,8 +326,8 @@ body {
   align-items: center;
   justify-content: center;
   align-items: center;
-  width: 98.5vw;
-  padding: 100px;
+  width: 100%;
+  padding: 50px;
   margin: 0;
   font-family: inherit;
   line-height: 1.4;
@@ -421,4 +424,40 @@ body {
   height: auto;
 }
 
-          
+/* Back Button Styles */
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #d45e4b;
+  color: #fffff0;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  /* margin-bottom: 2rem; */
+}
+
+.back-button:hover {
+  background-color: #c14d3a;
+  transform: translateX(-4px);
+}
+
+.back-button svg {
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .back-button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+#return-btn{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
