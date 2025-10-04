@@ -63,7 +63,6 @@ export default function Home() {
       buttonText: "Redimir Entrada",
       url: "https://www.ticketmaster.co/event/pramo-celebra-2025-nqda"
     }
-    
   ];
 
   return (
