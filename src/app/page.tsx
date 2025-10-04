@@ -1,8 +1,7 @@
-'use client';
-
 import ResponsiveImage from '@/components/ResponsiveImage';
 import EventMenu from '@/components/EventMenu';
 import EventGrid from '@/components/EventGrid';
+import Link from 'next/link';
 
 export default function Home() {
   const events = [
@@ -63,9 +62,9 @@ export default function Home() {
       <EventGrid cards={events} />
 
       <div id="component-17b12048-5e79-4aeb-bd00-088ac4aaef7c" className="btn-container">
-        <button className="btn btn-sale3" onClick={() => window.open('', '_blank')}>
+        <Link href="/t&c" className="btn btn-sale3">
           Términos y Condiciones
-        </button>
+        </Link>
       </div>
     </main>
   );

@@ -6,7 +6,7 @@ interface Card {
   line2: string;
   imgUrl: string;
   buttonText: string;
-}
+} 
 
 interface EventGridProps {
   cards: Card[];
