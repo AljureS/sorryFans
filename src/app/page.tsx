@@ -20,7 +20,7 @@ export default function Home() {
       line2: "Estadio Atanasio Girardot",
       imgUrl: "https://cdn.getcrowder.com/images/b1f28cf7-b08a-43bd-a9f9-a01cab08506c-banner-evento-2.png",
       buttonText: "Redimir Entrada",
-      url: ""
+      url: "https://www.ticketmaster.co/event/guns-n-roses-medelln-nqda"
     },
     {
       title: "IMAGINE DRAGONS | BOGOTÁ",
@@ -28,7 +28,7 @@ export default function Home() {
       line2: "Foro Vive Claro",
       imgUrl: "https://cdn.getcrowder.com/images/aaa65d50-f806-4256-99cc-30e79aeadaa8-banner-evento-3.png",
       buttonText: "Redimir Entrada",
-      url: ""
+      url: "https://www.ticketmaster.co/event/imagine-dragons-nqda"
     },
     {
       title: "LINK PARK | BOGOTÁ",
@@ -36,7 +36,7 @@ export default function Home() {
       line2: "Foro Vive Claro",
       imgUrl: "https://cdn.getcrowder.com/images/7b7712e8-0822-439c-ab6b-5b2674aacddd-banner-evento-5.png",
       buttonText: "Redimir Entrada",
-      url: ""
+      url: "https://www.ticketmaster.co/event/linkin-park-nqda"
     },
     {
       title: "SHAKIRA | CALI",
@@ -44,16 +44,26 @@ export default function Home() {
       line2: "Estadio Pascual Guerrero",
       imgUrl: "https://cdn.getcrowder.com/images/474236cb-76e3-4a22-b039-226dfcec5d1f-banner-evento-4.png",
       buttonText: "Redimir Entrada",
-      url: ""
+      url: "https://www.ticketmaster.co/event/shakira-cali-nqda"
     },
+    
     {
       title: "SHAKIRA | BOGOTÁ",
       line1: "1 de Noviembre",
       line2: "Foro Vive Claro",
       imgUrl: "https://cdn.getcrowder.com/images/cf0c4881-4ab3-4ce2-b425-a86dee0308bc-banner-evento-6.png",
       buttonText: "Redimir Entrada",
-      url: ""
+      url: "https://www.ticketmaster.co/event/shakira-bogota-nqda"
+    },
+    {
+      title: "PÁRAMO CELEBRA 2025 | BOGOTÁ",
+      line1: "31 de Octubre",
+      line2: "Chamorro City Hall",
+      imgUrl: "https://cdn.getcrowder.com/images/ded6ac61-b971-4688-8211-6e71a6838e1e-pramo-celebra-25email-banner.jpg?w=640&format=webp",
+      buttonText: "Redimir Entrada",
+      url: "https://www.ticketmaster.co/event/pramo-celebra-2025-nqda"
     }
+    
   ];
 
   return (
