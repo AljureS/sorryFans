@@ -1,8 +1,16 @@
 import ResponsiveImage from '@/components/ResponsiveImage';
 import EventMenu from '@/components/EventMenu';
-import EventGrid from '@/components/EventGrid';
-import TextBlock from '@/components/TextBlock';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
+
+// Dynamic imports for below-the-fold components
+const EventGrid = dynamic(() => import('@/components/EventGrid'), {
+  loading: () => <div className="event_grid" style={{ minHeight: '400px' }} />,
+});
+
+const TextBlock = dynamic(() => import('@/components/TextBlock'), {
+  loading: () => <div className="text-block-container" style={{ minHeight: '300px' }} />,
+});
 
 export default function Home() {
   const events = [

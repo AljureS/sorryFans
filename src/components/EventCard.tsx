@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { memo } from 'react';
 
 interface EventCardProps {
   title: string;
@@ -9,7 +10,7 @@ interface EventCardProps {
   url: string;
 }
 
-export default function EventCard({ title, line1, line2, imgUrl, buttonText, url }: EventCardProps) {
+function EventCard({ title, line1, line2, imgUrl, buttonText, url }: EventCardProps) {
   return (
     <div className="grid_element">
       <div className="image_container">
@@ -19,6 +20,10 @@ export default function EventCard({ title, line1, line2, imgUrl, buttonText, url
           width={400}
           height={300}
           className="w-full h-auto"
+          loading="lazy"
+          placeholder="blur"
+          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
       </div>
       <div className="information">
@@ -34,3 +39,5 @@ export default function EventCard({ title, line1, line2, imgUrl, buttonText, url
     </div>
   );
 }
+
+export default memo(EventCard);

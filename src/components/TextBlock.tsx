@@ -1,10 +1,12 @@
+import { memo } from 'react';
+
 interface TextBlockProps {
   paragraph1?: string;
   paragraph2?: string;
   steps?: string[];
 }
 
-export default function TextBlock({ paragraph1, paragraph2, steps }: TextBlockProps) {
+function TextBlock({ paragraph1, paragraph2, steps }: TextBlockProps) {
   return (
     <div id="component-text-block" className="text-block-container">
       <div className="text-block-content">
@@ -31,3 +33,5 @@ export default function TextBlock({ paragraph1, paragraph2, steps }: TextBlockPr
     </div>
   );
 }
+
+export default memo(TextBlock);

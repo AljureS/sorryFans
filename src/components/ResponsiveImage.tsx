@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import { memo } from 'react';
 
 interface ResponsiveImageProps {
   desktopUrl: string;
@@ -7,7 +8,7 @@ interface ResponsiveImageProps {
   alt?: string;
 }
 
-export default function ResponsiveImage({ desktopUrl, mobileUrl, alt = '' }: ResponsiveImageProps) {
+function ResponsiveImage({ desktopUrl, mobileUrl, alt = '' }: ResponsiveImageProps) {
   return (
     <div className="w-full">
       <Image
@@ -17,6 +18,8 @@ export default function ResponsiveImage({ desktopUrl, mobileUrl, alt = '' }: Res
         height={600}
         className="hidden md:block w-full h-auto"
         priority
+        sizes="100vw"
+        quality={85}
       />
       <Image
         src={mobileUrl}
@@ -25,7 +28,11 @@ export default function ResponsiveImage({ desktopUrl, mobileUrl, alt = '' }: Res
         height={400}
         className="block md:hidden w-full h-auto"
         priority
+        sizes="100vw"
+        quality={85}
       />
     </div>
   );
 }
+
+export default memo(ResponsiveImage);

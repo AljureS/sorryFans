@@ -174,8 +174,8 @@ body {
   background: none;
   border-radius: 8px;
   overflow: hidden;
-  /* box-shadow: 0 2px 8px rgba(0,0,0,0.1); */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
 }
 
 .grid_element:hover {
@@ -260,7 +260,6 @@ body {
 
 .text-block-p2 {
   font-size: 1.1rem;
-  /* font-weight: bold; */
   line-height: 1.6;
   color: #252523;
   margin-bottom: 2rem;
@@ -295,7 +294,6 @@ body {
 
 @media (max-width: 768px) {
   .text-block-container {
-    /* background-color: #fffff0; */
     padding: 3rem 2%;
   }
   .text-block-content {
@@ -413,14 +411,12 @@ body {
 }
 
 .container blockquote {
-  /* margin: 10px 0; */
   padding: 15px 15px;
   border-left: 3px solid #ccc;
   background-color: #f9f9f9;
   font-style: italic;
 }
 
-/* Asegurar que nada se desborde */
 .container * {
   max-width: 100%;
   box-sizing: border-box;
